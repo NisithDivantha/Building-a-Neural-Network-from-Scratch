@@ -2,12 +2,14 @@
 Semester 05-Deep Neural Networks module assigment 01
 
 ## Objectives 🎯
+### Task 01
+```
 - Construct that neural network according to the given problem. (CS3630 Assignment 1.pdf) 
 - Implement the back-propagation algorithm, and use gradient descent to train the network. 
 - Use cross-entropy cost function on a Softmax function for training. 
 - All but the last fully connected layers have ReLU as the activation function.
 - For given weight&bias sets, Calculate the gradients using the back propagation implementaton.
-
+```
 <!-- ## Creating a Virtual Environment
 ### On macOS
 
