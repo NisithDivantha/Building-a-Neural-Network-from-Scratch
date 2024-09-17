@@ -11,24 +11,8 @@ Semester 05-Deep Neural Networks module assigment 01
 - Study the effect of learning rate.
 
 
-## Neural Network implementation with Forward and Backward propagation
+![Neural Network](backprop.png)
 
-### Back Propagation
-- Derivative of the Cross Entropy Loss
-
-     \[ \delta = \hat{y} - y_{\text{true}} \]
-
-- Gradient of the error for hidden layers with respect to weighted input
-
-     \[ \delta_i = \delta_{i+1} \cdot W_{i+1}^T \cdot \text{ReLU}'(z_i) \]
-
-- Gradient of the weights
-
-     \[ \frac{\partial L}{\partial W_i} = \frac{1}{m} \cdot \delta_i \cdot a_{i-1}^T \]
-
-- Gradient of the biases
-
-     \[ \frac{\partial L}{\partial b_i} = \frac{1}{m} \cdot \sum_{j=1}^{m} \delta_i^{(j)} \]
 <!-- ## Creating a Virtual Environment
 ### On macOS
 
